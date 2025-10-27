@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 4</title>
+ 
+    <script>
+        function cambiarFondo() {
+            const secciones = document.querySelectorAll("section");
+            for (let i = 0; i < secciones.length; i++) {
+                secciones[i].style.backgroundColor = "purple";
+            }
+        }
+    </script>
+</head>
+<body style="text-align:center;">
+    <section>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic maxime nam velit dolorum quo doloremque delectus, ut nobis eum, iste ducimus commodi ipsam vel doloribus! Impedit fugiat est possimus libero!</section>
+    <section>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla placeat itaque eligendi voluptate incidunt quidem harum totam ullam quas quisquam. Porro dolorem fuga doloribus labore voluptatibus officia itaque est delectus?</section>
+    <section>Lorem ipsum dolor sit amet consectetur, adipisicing elit. At excepturi dolore quisquam dolores vitae id officiis, animi illo ratione veniam in. Dolores tempora quasi commodi consequatur. Eos vel totam quas.</section>
+    <br>
+    <input type="button" value="Cambiar fondo" onclick="cambiarFondo()">
+</body>
+</html>
+ 
